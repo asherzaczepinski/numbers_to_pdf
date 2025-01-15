@@ -4,12 +4,11 @@ from music21 import (
     environment, expressions, duration, layout
 )
 from PyPDF2 import PdfMerger
-from flask import Flask, request, jsonify
+from flask import Flask, request, send_file
 
 # ------------------------------------------------------------------------
 # Configuration: Point music21 to MuseScore 3 (adjust if necessary)
 # ------------------------------------------------------------------------
-# Update these paths if MuseScore 3 is installed in a different location
 environment.set('musicxmlPath', '/Applications/MuseScore 3.app/Contents/MacOS/mscore')
 environment.set('musescoreDirectPNGPath', '/Applications/MuseScore 3.app/Contents/MacOS/mscore')
 
@@ -314,8 +313,10 @@ def generate():
     allinone_pdf = os.path.join(output_folder, "AllInOne.pdf")
     merge_pdfs([scales_pdf, custom_pdf], allinone_pdf)
 
-    return jsonify({"message": f"Combined PDF created at: {allinone_pdf}"}), 200
+    # Return the combined PDF directly as a response
+    return send_file(allinone_pdf, mimetype='application/pdf', as_attachment=True, download_name='AllInOne.pdf')
 
-# Run the Flask app
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    # For Google Cloud Run, bind to 0.0.0.0 and get the port from environment variable
+    port = int(os.environ.get('PORT', 8080))
+    app.run(host='0.0.0.0', port=port)

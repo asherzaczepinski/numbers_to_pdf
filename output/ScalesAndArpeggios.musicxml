@@ -16,45 +16,45 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="Pbb4cacd4f9f54765bb5fa3877987d8af">
-      <part-name>Piano</part-name>
-      <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="I2fdc15b99578142aca2684c8455b5373">
-        <instrument-name>Piano</instrument-name>
-        <instrument-abbreviation>Pno</instrument-abbreviation>
+    <score-part id="P9e17f8a01263f7fab49a56c5b4b55875">
+      <part-name>Alto Saxophone</part-name>
+      <part-abbreviation>A Sax</part-abbreviation>
+      <score-instrument id="Ief8a68335791caeba1156aea2e85926a">
+        <instrument-name>Alto Saxophone</instrument-name>
+        <instrument-abbreviation>A Sax</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I2fdc15b99578142aca2684c8455b5373">
+      <midi-instrument id="Ief8a68335791caeba1156aea2e85926a">
         <midi-channel>1</midi-channel>
-        <midi-program>1</midi-program>
+        <midi-program>66</midi-program>
       </midi-instrument>
     </score-part>
-    <score-part id="P391bf212e88b9b08f871c52f8e6299e8">
-      <part-name>Piano</part-name>
-      <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="Ie939d4302d98ab0f8e60d351c173909d">
-        <instrument-name>Piano</instrument-name>
-        <instrument-abbreviation>Pno</instrument-abbreviation>
+    <score-part id="P5802cbe02d4103034c0071e38c9ba0da">
+      <part-name>Alto Saxophone</part-name>
+      <part-abbreviation>A Sax</part-abbreviation>
+      <score-instrument id="Idc85207749565c887b1ada95ce2121d1">
+        <instrument-name>Alto Saxophone</instrument-name>
+        <instrument-abbreviation>A Sax</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ie939d4302d98ab0f8e60d351c173909d">
+      <midi-instrument id="Idc85207749565c887b1ada95ce2121d1">
         <midi-channel>2</midi-channel>
-        <midi-program>1</midi-program>
+        <midi-program>66</midi-program>
       </midi-instrument>
     </score-part>
-    <score-part id="P5401283ce247d08ad908231613a0ae77">
-      <part-name>Piano</part-name>
-      <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="I4858c3ef4c4b18bea6e976638bbf91c3">
-        <instrument-name>Piano</instrument-name>
-        <instrument-abbreviation>Pno</instrument-abbreviation>
+    <score-part id="P0785dae11cfdae4a947094cf67fb1ba9">
+      <part-name>Alto Saxophone</part-name>
+      <part-abbreviation>A Sax</part-abbreviation>
+      <score-instrument id="I66408159b9718e998b7bb3c4019bf545">
+        <instrument-name>Alto Saxophone</instrument-name>
+        <instrument-abbreviation>A Sax</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I4858c3ef4c4b18bea6e976638bbf91c3">
+      <midi-instrument id="I66408159b9718e998b7bb3c4019bf545">
         <midi-channel>3</midi-channel>
-        <midi-program>1</midi-program>
+        <midi-program>66</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="Pbb4cacd4f9f54765bb5fa3877987d8af">
+  <part id="P9e17f8a01263f7fab49a56c5b4b55875">
     <!--========================= Measure 0 ==========================-->
     <measure implicit="no" number="0">
       <attributes>
@@ -67,6 +67,10 @@
           <sign>G</sign>
           <line>2</line>
         </clef>
+        <transpose>
+          <diatonic>-5</diatonic>
+          <chromatic>-9</chromatic>
+        </transpose>
       </attributes>
       <direction placement="above">
         <direction-type>
@@ -275,7 +279,7 @@
     </measure>
   </part>
   <!--=========================== Part 2 ===========================-->
-  <part id="P391bf212e88b9b08f871c52f8e6299e8">
+  <part id="P5802cbe02d4103034c0071e38c9ba0da">
     <!--========================= Measure 0 ==========================-->
     <measure implicit="no" number="0">
       <attributes>
@@ -288,6 +292,10 @@
           <sign>G</sign>
           <line>2</line>
         </clef>
+        <transpose>
+          <diatonic>-5</diatonic>
+          <chromatic>-9</chromatic>
+        </transpose>
       </attributes>
       <direction placement="above">
         <direction-type>
@@ -500,7 +508,7 @@
     </measure>
   </part>
   <!--=========================== Part 3 ===========================-->
-  <part id="P5401283ce247d08ad908231613a0ae77">
+  <part id="P0785dae11cfdae4a947094cf67fb1ba9">
     <!--========================= Measure 0 ==========================-->
     <measure implicit="no" number="0">
       <attributes>
@@ -513,6 +521,10 @@
           <sign>G</sign>
           <line>2</line>
         </clef>
+        <transpose>
+          <diatonic>-5</diatonic>
+          <chromatic>-9</chromatic>
+        </transpose>
       </attributes>
       <direction placement="above">
         <direction-type>

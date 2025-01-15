@@ -16,34 +16,38 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P2f24ae8dae4453b54f11993be309521d">
-      <part-name>Piano</part-name>
-      <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="Iee777edeebf3496912c958680a4bd065">
-        <instrument-name>Piano</instrument-name>
-        <instrument-abbreviation>Pno</instrument-abbreviation>
+    <score-part id="Pc187ec429509d3adeac7b212338704c6">
+      <part-name>Alto Saxophone</part-name>
+      <part-abbreviation>A Sax</part-abbreviation>
+      <score-instrument id="Ieb03311aaf42c9f68167a55ad71d9e6b">
+        <instrument-name>Alto Saxophone</instrument-name>
+        <instrument-abbreviation>A Sax</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Iee777edeebf3496912c958680a4bd065">
+      <midi-instrument id="Ieb03311aaf42c9f68167a55ad71d9e6b">
         <midi-channel>1</midi-channel>
-        <midi-program>1</midi-program>
+        <midi-program>66</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P2f24ae8dae4453b54f11993be309521d">
+  <part id="Pc187ec429509d3adeac7b212338704c6">
     <!--========================= Measure 0 ==========================-->
     <measure implicit="no" number="0">
       <attributes>
         <divisions>10080</divisions>
+        <transpose>
+          <diatonic>-5</diatonic>
+          <chromatic>-9</chromatic>
+        </transpose>
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>My Custom Rhythm</words>
+          <words>My Custom Rhythm (Standard Staff)</words>
         </direction-type>
       </direction>
       <note>
         <pitch>
-          <step>C</step>
+          <step>D</step>
           <octave>4</octave>
         </pitch>
         <duration>40320</duration>
@@ -54,7 +58,7 @@
     <measure implicit="no" number="0">
       <note>
         <pitch>
-          <step>C</step>
+          <step>D</step>
           <octave>4</octave>
         </pitch>
         <duration>20160</duration>
@@ -62,7 +66,7 @@
       </note>
       <note>
         <pitch>
-          <step>C</step>
+          <step>D</step>
           <octave>4</octave>
         </pitch>
         <duration>20160</duration>

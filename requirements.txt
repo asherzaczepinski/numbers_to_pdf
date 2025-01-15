@@ -1,0 +1,3 @@
+Flask
+music21
+PyPDF2

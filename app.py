@@ -388,3 +388,21 @@ if __name__ == '__main__':
     # For Google Cloud Run or other environments, bind to 0.0.0.0 and get PORT from environment
     port = int(os.environ.get('PORT', 8080))
     app.run(host='0.0.0.0', port=port, debug=True)
+""" 
+envaz@Ashers-Air numbers_to_pdf % curl -X POST \
+  http://localhost:8080/generate \
+  -H "Content-Type: application/json" \
+  -d '{
+    "output_folder": "./output",
+    "keys": ["C", "G", "D"],
+    "num_octaves": 1,
+    "instrument_name": "Piano",
+    "custom_rhythm": [[1], [0.5, 0.5]],
+    "custom_line_title": "Test Custom Rhythm"
+}' \
+--output AllInOne.pdf
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 33265  100 33060  100   205  62150    385 --:--:-- --:--:-- --:--:-- 62645
+envaz@Ashers-Air numbers_to_pdf %  """

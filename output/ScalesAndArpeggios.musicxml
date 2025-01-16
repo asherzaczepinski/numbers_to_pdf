@@ -16,45 +16,45 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P9e17f8a01263f7fab49a56c5b4b55875">
+    <score-part id="P751a31b91346498ff3fb6219dc41c37d">
       <part-name>Alto Saxophone</part-name>
       <part-abbreviation>A Sax</part-abbreviation>
-      <score-instrument id="Ief8a68335791caeba1156aea2e85926a">
+      <score-instrument id="If761ac9c1bdaea1a637ef523ff7e26dc">
         <instrument-name>Alto Saxophone</instrument-name>
         <instrument-abbreviation>A Sax</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ief8a68335791caeba1156aea2e85926a">
+      <midi-instrument id="If761ac9c1bdaea1a637ef523ff7e26dc">
         <midi-channel>1</midi-channel>
         <midi-program>66</midi-program>
       </midi-instrument>
     </score-part>
-    <score-part id="P5802cbe02d4103034c0071e38c9ba0da">
+    <score-part id="Pb3edc056d04bbf03755dc1c2cb9a67e6">
       <part-name>Alto Saxophone</part-name>
       <part-abbreviation>A Sax</part-abbreviation>
-      <score-instrument id="Idc85207749565c887b1ada95ce2121d1">
+      <score-instrument id="I51c211130d95fd8e88518644adfff9cd">
         <instrument-name>Alto Saxophone</instrument-name>
         <instrument-abbreviation>A Sax</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Idc85207749565c887b1ada95ce2121d1">
+      <midi-instrument id="I51c211130d95fd8e88518644adfff9cd">
         <midi-channel>2</midi-channel>
         <midi-program>66</midi-program>
       </midi-instrument>
     </score-part>
-    <score-part id="P0785dae11cfdae4a947094cf67fb1ba9">
+    <score-part id="P81c25586f489f31c73b3609819037ef7">
       <part-name>Alto Saxophone</part-name>
       <part-abbreviation>A Sax</part-abbreviation>
-      <score-instrument id="I66408159b9718e998b7bb3c4019bf545">
+      <score-instrument id="I9c8188a594daf5c97952ffe69725cc2d">
         <instrument-name>Alto Saxophone</instrument-name>
         <instrument-abbreviation>A Sax</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I66408159b9718e998b7bb3c4019bf545">
+      <midi-instrument id="I9c8188a594daf5c97952ffe69725cc2d">
         <midi-channel>3</midi-channel>
         <midi-program>66</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P9e17f8a01263f7fab49a56c5b4b55875">
+  <part id="P751a31b91346498ff3fb6219dc41c37d">
     <!--========================= Measure 0 ==========================-->
     <measure implicit="no" number="0">
       <attributes>
@@ -279,7 +279,7 @@
     </measure>
   </part>
   <!--=========================== Part 2 ===========================-->
-  <part id="P5802cbe02d4103034c0071e38c9ba0da">
+  <part id="Pb3edc056d04bbf03755dc1c2cb9a67e6">
     <!--========================= Measure 0 ==========================-->
     <measure implicit="no" number="0">
       <attributes>
@@ -508,7 +508,7 @@
     </measure>
   </part>
   <!--=========================== Part 3 ===========================-->
-  <part id="P0785dae11cfdae4a947094cf67fb1ba9">
+  <part id="P81c25586f489f31c73b3609819037ef7">
     <!--========================= Measure 0 ==========================-->
     <measure implicit="no" number="0">
       <attributes>

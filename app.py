@@ -326,4 +326,4 @@ def generate():
 if __name__ == '__main__':
     # For Google Cloud Run, bind to 0.0.0.0 and get the port from environment variable
     port = int(os.environ.get('PORT', 8080))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='0.0.0.0', port=port, debug=True)

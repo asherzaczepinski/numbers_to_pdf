@@ -1,9 +1,10 @@
 # Use an official Python runtime as a parent image
 FROM python:3.10-slim
 
-# Install system dependencies (MuseScore 3, libraries)
+# Install MuseScore and other system dependencies
 RUN apt-get update && apt-get install -y \
     musescore3 \
+    xvfb \
     wget \
     libqt5widgets5 \
     libqt5network5 \
@@ -29,4 +30,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8080
 
 # Run the application
+#xvfb-run", 
 CMD ["python", "app.py"]

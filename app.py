@@ -9,9 +9,16 @@ from flask import Flask, request, send_file
 # ------------------------------------------------------------------------
 # Configuration: Point music21 to MuseScore 3 (adjust if necessary)
 # ------------------------------------------------------------------------
-environment.set('musicxmlPath', '/Applications/MuseScore 3.app/Contents/MacOS/mscore')
-environment.set('musescoreDirectPNGPath', '/Applications/MuseScore 3.app/Contents/MacOS/mscore')
 
+# Set the path for MuseScore depending on the environment
+if os.path.exists('/usr/bin/musescore3'):  # Path for MuseScore in Linux (Cloud Run)
+    environment.set('musicxmlPath', '/usr/bin/musescore3')
+    environment.set('musescoreDirectPNGPath', '/usr/bin/musescore3')
+elif os.path.exists('/Applications/MuseScore 3.app/Contents/MacOS/mscore'):  # macOS path
+    environment.set('musicxmlPath', '/Applications/MuseScore 3.app/Contents/MacOS/mscore')
+    environment.set('musescoreDirectPNGPath', '/Applications/MuseScore 3.app/Contents/MacOS/mscore')
+else:
+    raise EnvironmentError("MuseScore executable not found. Check your installation.")
 # ------------------------------------------------------------------------
 # Enharmonic mapping: name -> (newName, octaveAdjustment)
 # ------------------------------------------------------------------------
